@@ -2069,17 +2069,10 @@
 							]
 							Damage: 0
 							Enchantments: [
-								{
-									id: "miningmaster:freezing"
-									lvl: 3
-								}
-								{
-									id: "embellishedenchanting:thunderbolt"
-									lvl: 1
-								}
+			
 								{
 									id: "minecraft:power"
-									lvl: 3
+									lvl: 9
 								}
 							]
 							Unbreakable: 1b
@@ -3638,3 +3631,4 @@
 	]
 	title: "&7Fishing"
 }
+
