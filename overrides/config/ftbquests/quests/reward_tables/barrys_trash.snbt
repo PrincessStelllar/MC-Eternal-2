@@ -230,30 +230,219 @@
 		}
 		{ item: "goety:spiteful_belt" }
 		{ item: "goety:feline_amulet" }
-		{
-			item: {
-				Count: 1
-				id: "cgs:blazegun"
-				tag: {
-					Ammo: "cgs:burnable"
-					AmmoCount: 20000
-					variant: "default"
-				}
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cgs:frag_grenade"
-				tag: {
-					ThrowMode: "ntgl:safe"
-					variant: "default"
-				}
-			}
-		}
 		{ item: "immersive_aircraft:biplane" }
 		{ item: "quark:apple_crate" }
+		{
+			item: {
+				Count: 1
+				id: "gonefishing:sunken_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Magnetic Junkyard Pickaxe\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "species:crankbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "species:scattershot"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Barry's Crankbow\"}"
+					}
+				}
+			}
+		}
+		{ item: "alexscaves:quarry_smasher" }
+		{ item: "alexscaves:quarry" }
+		{ count: 4, item: "alexscaves:magnetic_light" }
+		{
+			item: {
+				Count: 1
+				id: "species:wicked_mask"
+				tag: {
+					AbsorptionAmount: 0.0f
+					Age: 0
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					Attributes: [
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.armor_toughness"
+						}
+						{
+							Base: 1.0d
+							Name: "minecraft:generic.attack_damage"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:fire_magic_resist"
+						}
+						{
+							Base: 0.35d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:evocation_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:nature_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:blood_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:lightning_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:ice_magic_resist"
+						}
+						{
+							Base: NaNd
+							Name: "puffish_attributes:stealth"
+						}
+						{
+							Base: 0.1d
+							Name: "caelus:fall_flying"
+						}
+						{
+							Base: 12.0d
+							Modifiers: [{
+								Amount: 0.017905791729087694d
+								Name: "Random spawn bonus"
+								Operation: 1
+								UUID: [I;
+									-1922665747
+									1520913418
+									-1764314040
+									1827948830
+								]
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:eldritch_magic_resist"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:holy_magic_resist"
+						}
+						{
+							Base: 8.0d
+							Name: "minecraft:generic.max_health"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.armor"
+						}
+						{
+							Base: 0.0d
+							Name: "forge:step_height_addition"
+						}
+						{
+							Base: 1.0d
+							Name: "irons_spellbooks:ender_magic_resist"
+						}
+					]
+					BaguData: { }
+					Brain: {
+						memories: { }
+					}
+					CanPickUpLoot: 0b
+					CheeseFeedings: 0
+					CitadelData: { }
+					ColorVariant: "rats:brown"
+					DeathTime: 0s
+					DigCooldown: -116
+					EntityJSData: { }
+					FallFlying: 0b
+					ForcedAge: 0
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					Health: 8.0f
+					HurtByTimestamp: 0
+					HurtTime: 0s
+					InLove: 0
+					IsMale: 0b
+					LeftHanded: 0b
+					OnGround: 1b
+					PersistenceRequired: 0b
+					Plague: 0b
+					RaidCooldown: 0
+					Sitting: 0b
+					Toga: 0b
+					WildTrust: 0
+					YouthPotion: 0b
+					display: {
+						Name: "{\"text\":\"Rat Mask\"}"
+					}
+					"forge:spawn_type": "COMMAND"
+					id: "rats:rat"
+					rolledTraits: 1b
+				}
+			}
+		}
+		{ item: "species:hopelight" }
+		{ item: "species:cracked_wraptor_egg" }
+		{
+			item: {
+				Count: 1
+				id: "species:ricoshield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "species:smoke_bomb" }
+		{ item: "species:birtday_cake" }
+		{ item: "species:cranktrap" }
 	]
 	title: "barry's trash"
 }
