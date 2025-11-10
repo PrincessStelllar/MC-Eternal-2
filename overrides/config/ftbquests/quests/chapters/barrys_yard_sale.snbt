@@ -629,6 +629,7 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -950,10 +951,161 @@
 					item: "chipped:smiling_carved_pumpkin"
 					type: "item"
 				}
+				{
+					id: "52B75E255434EA10"
+					item: "species:cracked_wraptor_egg"
+					type: "item"
+				}
 			]
 			title: "<grad from=#FFD300 to=#FF6B00 hue uni><grad from=#FF6B00 to=#FF004C hue uni>The Smiling Friends!"
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"Barry is willing to trade a &eKinetic Quarry&r for the items required to build a &dMagnetic Quarry"
+				""
+				"&6&nOnly one in stock!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "698FB5BFC9C3D64F"
+			rewards: [
+				{
+					id: "533DB388AA5120E7"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					id: "6104CBB344064DBE"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "739AA7F683D72193"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+			]
+			subtitle: "Want a Quarry? "
+			tasks: [{
+				consume_items: true
+				id: "4A97A2C7839D877B"
+				item: "species:kinetic_core"
+				type: "item"
+			}]
+			title: "&eYard Trade:&r Magnetic Quarry"
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&dNote:&r Has Veinmining"
+				"&6&nOnly one in stock!"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "gonefishing:sunken_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Magnetic Junkyard Pickaxe\"}"
+					}
+				}
+			}
+			id: "1123C1E68D202D63"
+			rewards: [{
+				id: "6F38393031C6F1C1"
+				item: {
+					Count: 1
+					id: "gonefishing:sunken_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"Magnetic Junkyard Pickaxe\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Magnetic Junkyard Pickaxe"
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "59DB31B201680447"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYardsale:&r Magnetic Junkyard Pickaxe"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "species:crankbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "species:scattershot"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Barry's Crankbow\"}"
+					}
+				}
+			}
+			id: "5198C6BA616C90BC"
+			rewards: [{
+				id: "1E6B5A792B59B726"
+				item: {
+					Count: 1
+					id: "species:crankbow"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "species:scattershot"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"Barry's Crankbow\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Barry's Crankbow"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "7E68A9874146A055"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Barry's Crankbow"
+			x: 11.0d
+			y: 8.0d
 		}
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
