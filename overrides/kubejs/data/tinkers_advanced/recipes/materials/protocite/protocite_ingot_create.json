@@ -7,7 +7,7 @@
   },
   "mainInput": {
     "ingredient": {
-      "item": "mekanism:pellet_antimatter"
+      "item": "tinkers_advanced:densium_ingot"
     }
   },
   "output": {
