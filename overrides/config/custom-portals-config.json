@@ -19,9 +19,9 @@
       "isFluidIgniter": false,
       "itemIgniter": "kubejs:portable_wormhole_generator",
       "dimension": "mce:ancient_overworld",
-      "r": 0,
-      "g": 170,
-      "b": 170
+      "r": 255,
+      "g": 215,
+      "b": 0
     },
     {
       "isFlat": true,
